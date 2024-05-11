@@ -42,7 +42,9 @@ html {
     left: 0;
     position: absolute;
     right: 0;
-    top: 13vh;
+    top: 10vh;
+    max-width: 450px;
+    margin: auto;
 }
 
 .five p {
@@ -50,12 +52,6 @@ html {
     font-weight: bold;
     color: white;
     left: 0;
-    position: absolute;
     right: 0;
-}
-
-@media screen and (max-width: 500px) {
-    .container {
-        width: 90%;
-    }
+    position: absolute;
 }
